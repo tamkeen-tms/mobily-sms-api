@@ -1,0 +1,20 @@
+{
+  "name": "tamkeenlms/mobily-sms-api",
+  "description": "A non-official PHP client for Mobily's SMS service API",
+  "type": "library",
+  "keywords": [
+    "sms",
+    "mobily"
+  ],
+  "require": {
+    "php": ">=5.6",
+    "guzzlehttp/guzzle": "~6.0",
+    "nesbot/carbon": "^1.21"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "MobilyAPI\\": "/"
+    }
+  }
+}
