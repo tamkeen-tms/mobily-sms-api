@@ -28,9 +28,6 @@
 			'lang' => 3
 		];
 
-		const REQUEST_SENDING_STATUS = 'sendingStatus';
-		const REQUEST_SEND_SMS = 'sendSMS';
-
 		/**
 		 * @param $mobileNumber The account mobile number (Mobily uses the mobile phone number as the username)
 		 * @param $password The account password
