@@ -36,8 +36,8 @@
 			}
 
 			return [
-				'remaining' => $balance[0],
-				'total' => $balance[1]
+				'remaining' => $balance[1],
+				'total' => $balance[0]
 			];
 		}
 
